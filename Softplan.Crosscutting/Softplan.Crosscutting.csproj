@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Softplan.Aplication\Softplan.Aplication.csproj" />
+    <ProjectReference Include="..\Softplan.Data\Softplan.Data.csproj" />
+    <ProjectReference Include="..\Softplan.Domain\Softplan.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

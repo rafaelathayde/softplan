@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Softplan
+/Softplan.Api/.vs/Softplan.Api
+/Softplan.Api/bin/Release/netcoreapp3.1
+/Softplan.Api/obj
+/Softplan.Aplication/bin/Release/netcoreapp3.1
+/Softplan.Aplication/obj
+/Softplan.Crosscutting/bin/Release/netcoreapp3.1
+/Softplan.Crosscutting/obj
+/Softplan.Data/bin/Release/netcoreapp3.1
+/Softplan.Data/obj
+/Softplan.Domain/bin/Release/netcoreapp3.1
+/Softplan.Domain/obj
+/SoftPlan.Tests/bin/Release/netcoreapp3.1
+/SoftPlan.Tests/obj
+/.vs
